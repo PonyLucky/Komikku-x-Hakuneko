@@ -4,7 +4,7 @@ On Linux only ;)
 
 ## Installation
 
-### 0) Hakuneko settings
+### Hakuneko settings
 
 1. Open HakuNeko.
 2. Go to the settings menu (hamburger menu at the top left).
@@ -12,12 +12,12 @@ On Linux only ;)
 4. In the **Chapter Title Format** entry, write `Chapter %CH%`. *Optionnal but some websites don't order their chapters properly (eg. 0001, 0002, etc) so Komikku might misorder them.*
 5. Press the check button at the bottom to save.
 
-### 1) Automatically
+### Automatically, or
 
 1. Open a terminal in the current folder (or go to this folder).
 2. Type `sudo sh ./run.sh`
 
-### 2) Manually
+### Manually
 
 1. Open a terminal.
 2. Type `su` and enter password.
