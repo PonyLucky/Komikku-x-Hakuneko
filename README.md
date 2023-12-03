@@ -35,7 +35,8 @@ fi
 
 mount --bind /home/$USER/Documents/Mangas /home/$USER/.var/app/info.febvre.Komikku/data/local
 ```
-5. Type `vim /etc/systemd/system/komikku_bind.service` and enter:
+5. Type `chmod +x /root/.scripts/komikku_bind.sh`
+6. Type `vim /etc/systemd/system/komikku_bind.service` and enter:
 ```ini
 [Unit]
 Description=Bind local data of Komikku with Mangas folder in Documents
@@ -48,6 +49,6 @@ Type=simple
 [Install]
 WantedBy=multi-user.target
 ```
-6. Type `systemctl daemon-reload`.
-7. Type `systemctl start komikku_bind.service`.
+7. Type `systemctl daemon-reload`.
+8. Type `systemctl start komikku_bind.service`.
 
